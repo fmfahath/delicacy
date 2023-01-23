@@ -16,8 +16,8 @@
 :root{ 
    --green-color : #3cb815; 
    --light-green-color: #c0eb7b;
-   --orange-color: ;
-   --light-orange-color: #ff7300;
+   --orange-color:  #f75f1d; 
+   --light-orange-color:#ff7300;
    --text-color: #1a2428;
    --bg-color: #fff;
 }
@@ -64,3 +64,18 @@ header{
     font-size: 13px;
     font-weight: 500;
 }
+
+.logo{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.logo .bx{
+     font-size: 24px;
+     color: var(--light-orange-color);
+}
+
