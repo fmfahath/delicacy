@@ -264,4 +264,15 @@ section{
     margin-top: 1rem;
     position: absolute;
     bottom: -8%;
+    display: none;
+}
+
+.categories-container .box .bx:hover{
+    background-color: var(--light-orange-color);
+    transition: 0.2s all linear;
+}
+
+.categories-container .box:hover .bx{
+    display: block;
+    transition: 0.2s all linear;
 }
