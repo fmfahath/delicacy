@@ -198,3 +198,20 @@ section{
 .swiper-button-prev::after{
     display: none;
 }
+
+/* Categories--------------------------------------------------------------------------------------- */
+.heading{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading h1{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.heading span{
+    color: var(--green-color);
+}
