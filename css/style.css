@@ -115,7 +115,7 @@ section{
     min-height: 640px;
     display: flex;
     align-items: center;
-    background:url(img/background2.jpg);
+    background: url(/img/background.jpg);
     /* background-color: #c0eb7b; */
     background-repeat: no-repeat;    
     background-size: cover;
@@ -146,4 +146,17 @@ section{
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
+}
+
+.btn{
+    padding: 0.6rem 1rem;
+    background-color: var(--green-color);
+    color: var(--bg-color);
+    font-weight: 400;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 00.5rem;
+    max-width: 160px;
 }
