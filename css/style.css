@@ -276,3 +276,19 @@ section{
     display: block;
     transition: 0.2s all linear;
 }
+
+.box1{
+    background-color: #f3f4ea;
+}
+.box2{
+    background-color: #e9f4e3;
+}
+.box3{
+    background-color: #faeaea;
+}
+.box4{
+    background-color: #eeeef9;
+}
+.box5{
+    background-color: #f7f6d7;
+}
