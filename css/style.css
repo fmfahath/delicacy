@@ -169,3 +169,8 @@ section{
     font-size: 20px;
     margin: auto;
 }
+
+.btn.btn:hover{
+    background: var(--light-orange-color);
+    transition: 0.2s ease;
+}
