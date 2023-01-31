@@ -494,6 +494,17 @@ section{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
     gap: 1rem;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+    padding: 20px;
     background-color: #fef4ea;
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-box p{
+    font-size: 0.938rem;
+    margin: 0.5rem 0 1rem;
 }
