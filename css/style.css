@@ -349,3 +349,19 @@ section{
 .products-container .box .price span{
     color: var(--text-color);
 }
+
+.products-container .box .bxs-cart-alt{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    background-color: var(--green-color);
+    color: var(--bg-color);
+    font-size: 20px;
+    border-radius: 0.5rem 0 0.5rem 0;
+}
+
+.products-container .box .bxs-cart-alt:hover{
+    background-color: var(--light-orange-color);
+    transition: 0.2s ease linear;
+}
