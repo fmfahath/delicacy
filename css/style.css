@@ -444,13 +444,13 @@ section{
     transition: 0.2s all linear;
 }
 
-.customers-container .box img{
+/* .customers-container .box img{
     width: 100%;
     height: 500px;
     margin-top: 1rem;
     object-fit:fill;
     object-position: center;
-}
+} */
 
 .customers-container .box .bx{
     font-size: 24px;
@@ -460,4 +460,23 @@ section{
 .customers-container .box .stars .bx{
     font-size: 1rem;
     color: var(--light-orange-color);
+}
+
+.customers-container .box p{
+    font-size: 0.938rem;
+} 
+
+.customers-container .review-profile{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    column-gap: 0.5rem;
+}
+
+.customers-container .review-profile img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
 }
