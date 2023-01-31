@@ -365,3 +365,11 @@ section{
     background-color: var(--light-orange-color);
     transition: 0.2s ease linear;
 }
+
+.products-container .box .bx-heart{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 20px;
+    color: var(--light-orange-color);
+}
