@@ -451,3 +451,13 @@ section{
     object-fit:fill;
     object-position: center;
 }
+
+.customers-container .box .bx{
+    font-size: 24px;
+    color: var(--green-color);
+}
+
+.customers-container .box .stars .bx{
+    font-size: 1rem;
+    color: var(--light-orange-color);
+}
