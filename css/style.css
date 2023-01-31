@@ -528,3 +528,18 @@ section{
     color: var(--bg-color);
     transition: 0.2s all linear;
 }
+
+.footer-box h2{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.footer-box a{
+    color: #868a92;
+    margin-bottom: 1rem;
+}
+
+.footer-box a:hover{
+    color: var(--light-orange-color);
+}
