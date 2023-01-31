@@ -480,3 +480,8 @@ section{
     object-fit: cover;
     object-position: center;
 }
+
+.customers-container .review-profile h3{
+    font-size: 1rem;
+    font-weight: 600;
+}
