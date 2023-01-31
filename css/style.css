@@ -493,7 +493,7 @@ section{
     margin-left: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
-    gap: 1rem;
+    gap: 0.5rem;
     margin-top: 1.5rem;
     padding: 20px;
     background-color: #fef4ea;
@@ -542,4 +542,23 @@ section{
 
 .footer-box a:hover{
     color: var(--light-orange-color);
+}
+
+.footer-box form{
+    border-bottom: 1px solid var(--text-color);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem  ;
+}
+
+.footer-box form input{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.footer-box form .bx{
+    color: var(--light-orange-color);
+    cursor: pointer;
 }
