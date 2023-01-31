@@ -373,3 +373,14 @@ section{
     font-size: 20px;
     color: var(--light-orange-color);
 }
+
+.products-container .box .discount{
+    position: absolute;
+    top: 0.5rem;
+    left: 0;
+    font-size: 15px;
+    color: var(--bg-color);
+    background-color: var(--light-orange-color);
+    padding: 4px 18px;
+    clip-path: polygon(100% 0, 85% 49%, 100% 100%, 0 100%, 0% 50%, 0 0);
+}
