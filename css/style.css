@@ -575,3 +575,9 @@ section{
     width: 0.5rem;
     background-color: var(--light-green-color);
 }
+
+::-webkit-scrollbar-thumb{
+    width: 0.5rem;
+    background-color: var(--green-color);
+    border-radius: 5rem;
+}
