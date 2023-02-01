@@ -569,3 +569,9 @@ section{
     padding: 20px;
     font-size: 0.8rem;
 }
+
+/* custom scroll Bar */
+::-webkit-scrollbar{
+    width: 0.5rem;
+    background-color: var(--light-green-color);
+}
