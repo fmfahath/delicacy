@@ -562,3 +562,10 @@ section{
     color: var(--light-orange-color);
     cursor: pointer;
 }
+
+/* copyright---------------------------------------------------------------------------------------------------------------------------- */
+.copyright{
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8rem;
+}
