@@ -661,6 +661,10 @@ section{
     text-align: center;
 }
 
+.navbar.active{
+    top: 100%;
+}
+
 .navbar a{
     display: block;
 }
