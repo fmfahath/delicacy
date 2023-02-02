@@ -796,4 +796,21 @@ section{
         position: absolute;
         right: -10px;
     }
+
+    /* about------------------------------------------------- */
+    .about{
+        display: block;
+        text-align: center;
+        position: relative;
+    }
+
+    .about img{
+        width: 100%;
+        height: 450px;
+    }
+
+    .about a{
+        position: relative;
+        left: 150px;
+    }
 }
