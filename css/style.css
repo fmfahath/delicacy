@@ -581,3 +581,24 @@ section{
     background-color: var(--green-color);
     border-radius: 5rem;
 }
+
+/* responsive------------------------------------------------------------------------------------------- */
+@media (max-width: 1080px){
+    header{
+        padding: 18px 60px;
+    }
+
+    .home-text{
+        padding: 0 100px;
+    }
+
+    .container{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .container img{
+        right: 100px;
+    }
+
+}
