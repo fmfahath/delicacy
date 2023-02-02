@@ -631,4 +631,10 @@ section{
         margin-bottom: 0.1rem;
     }
 
+    /* about------------------------------------------------ */
+    .about img{
+        width: 100%;
+        height: 400px;
+    }
+
 }
